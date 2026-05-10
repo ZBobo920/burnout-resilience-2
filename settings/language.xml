@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <language version="1.0" htmlParse="true">
+;
+
+        <!-- misc -->
+        <item id="btnContinue">继续</item>
+        <item id="btnclose">关闭</item>
+        <item id="btnHelp">救我</item>
+        <item id="btnAgreement">同意</item>
+        <item id="btnNeutral">中立</item>
+        <item id="btnDisagreement">不同意</item>
+        <item id="btnTransfer">提交</item>
+        <item id="btnExit">离开</item>
+        <item id="selectItem">请选择...</item>
+        
+        <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+        <item id="leaveSiteWarning">数据将会清空</item>
+
+        <!-- HtmlQ only: In-App Back Button -->
+        <item id="backButton">返回</item>
+        <item id="fillInRequiredFields">请填写必填项</item>
+
+        <!-- errors -->
+        <item id="errorHead">出错啦！重试</item>
+        <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+
+        <!-- welcome screen (leave blank to skip screen) -->
+        <item id="welcomeHead">欢迎！</item>
+        <item id="welcomeText">这是一个关于工科大学生英语学习倦怠和韧性共存现象的调查研究。{br}{br}{b}** 注意 **{/b}{br}For 您最好使用屏幕大的设备，比如电脑{br}{br}如果可以的话请{b}最大化{/b}你浏览器的窗口{b}{i}然后刷新{/i}{/b} 本页面, 点击 "继续" 以开始。</item>
+
+        <!-- user login, only displayed if access is restricted (see config-file) -->
+        <item id="loginHead">访问代码</item>
+        <item id="loginText">请输入访问代码（你可以自己编一个，然后告诉我，谢谢）</item>
+        <item id="loginFormHeader">访问代码</item>
+        <item id="loginPartIdText">名字</item>
+        <item id="loginNoInput">请输入访问代码（你可以自己编一个，然后告诉我，谢谢）</item>
+        <item id="loginInvalidInput">无效代码</item>
+        <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+        <!-- introduction (leave blank to skip popup) -->
+        <item id="introHead">介绍</item>
+        <item id="introText">本研究旨在探索工科大学生英语学习倦怠与韧性共存现象。英语学业韧性就是你在英语学习的过程中，遇到困难的时候，支撑你保持冷静、克服困难、继续坚持下去的一种积极心理状态。</item>
+
+        <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+        <item id="step1Head">NO.1</item>
+        <item id="step1Text">仔细阅读卡片内容并将其分类:一类同意，一类不同意一类中立。{br}{br}你可以把卡片拖拽到下面的框里，也可以按1、2、3在你的键盘上。{br}{br}如果你想再读一遍，请点击“救救我”。但是我也不知道咋救你。</item>
+
+        <!-- step2: sorting (leave blank to skip popup) -->
+        <item id="step2Head">NO.2</item>
+        <item id="step2Text">把"同意"的卡片放至表格右侧{br}{br}把"不同意"-的卡片放至左侧。{br}{br}中立的放中间的"0",此处尽量不要超过4个。</item>
+        <item id="step2CondOfInstruc">规则</item>
+        <item id="step2TextSizeLabel">文本</item>
+        
+
+        <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+        <item id="step3Head">NO.3</item>
+        <item id="step3Text">请再整个检查一遍，可以更改。</item>
+        <item id="step3CondOfInstruc">规则</item>
+
+        <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+        <item id="step4Head">NO.4</item>
+        <item id="step4Text">请解释你选择最同意（5）或最不同意（-5）的陈述语句的原因，可以简要描述你的心理活动或是具体例子。懒得打字的话也可以微信给我发语音。</item>
+
+        <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+        <item id="step5Head">NO.5</item>
+        <item id="step5Text">请回答以下问题。</item>
+
+        <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+        <item id="transferHead">提交</item>
+        <item id="transferText">您已完成调查，请提交。</item>
+        <item id="transferFailed">提交失败，请重试。</item>
+        <item id="transferOk">谢谢！！！{br}{br}再见！！！</item>   
+   </language>
